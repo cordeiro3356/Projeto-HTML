@@ -1,2 +1,2 @@
 # Projeto-HTML
-Projeto de um Portfólio de uma Startup em 
+Projeto de um Portfólio de uma Startup.
