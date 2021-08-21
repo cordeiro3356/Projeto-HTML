@@ -10,7 +10,7 @@ body{
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: white;
+    background-color: rgb(19, 17, 17);
     background-image: url('https://wallpaperaccess.com/full/1216317.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -43,7 +43,7 @@ h2{
     text-decoration: none;
     color: rgb(247, 236, 236);
     padding: 1rem 4rem;
-    border: 1px solid black;
+    border: 1px solid rgb(245, 240, 240);
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -76,3 +76,125 @@ a:hover{
     border-radius: 4px;
     transition: 0.5s ease-in-out;
 }
+
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0; 
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    background-image: url(https://i.kym-cdn.com/photos/images/original/001/292/055/7b4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: rgb(250, 248, 248);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.card2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    background-image: url(https://i.kym-cdn.com/photos/images/original/001/292/055/7b4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: rgb(250, 246, 246);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.card3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 0 0;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/471px-Ethereum_logo_2014.svg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: rgb(252, 250, 250);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.card-text {
+    width: 40%;
+    letter-spacing: 1px;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid white;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.card-wrapper p{
+    font-size: 0;
+    visibility: hidden;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    filter: unset;
+}
+
